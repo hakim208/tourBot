@@ -1,13 +1,30 @@
-# React + Vite
+# 🧠 TurboBot — Ассистенти AI барои Туризми Тоҷикистон 🇹🇯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TurboBot** як ассистенти зеҳни сунъӣ аст, ки барои сайёҳони дохилӣ ва хориҷӣ дар шиносоӣ бо зебоиҳои Тоҷикистон сохта шудааст. Он ҳамчун ёри интерактивӣ барои саволҳо ва пешниҳодҳои саёҳат хизмат мекунад.
 
-Currently, two official plugins are available:
+## 🎯 Хусусиятҳо
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏞 Маълумот дар бораи ҷойҳои сайёҳии Тоҷикистон (куҳҳо, кӯлҳо, шаҳрҳо ва ғайра)
+- 🏨 Пешниҳоди меҳмонхонаҳо ва ҷойҳои истиқомат
+- ✈️ Маълумот ва фармоиши чиптаҳои ҳавопаймо (дар оянда бо API)
+- 🍽 Пешниҳодҳои хӯрокҳои миллӣ ва тарабхонаҳои маҳаллӣ
+- 📅 Пешниҳоди маршрутҳо ва нақшаҳои сафар
+- 🌐 Чат бо дастгирии зиёда аз 256 забонҳо 
 
-## Expanding the ESLint configuration
+## 🧪 Технологияҳои истифодашуда
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# tourBot
+- React (Vite)
+- Tailwind CSS барои намуди зоҳирӣ
+- GPT Gemini API барои ҷавобҳои AI
+- Axios барои дархостҳои HTTP
+- Дар оянда: Booking API, Flight API, Google Maps API
+
+## 🚀 Чӣ тавр оғоз кардан?
+
+1. Репозиториро клон кунед:
+
+```bash
+git clone https://github.com/hakim208/tourBot.git
+cd my-app
+nom run dev
+```
