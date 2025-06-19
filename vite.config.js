@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 import tailwindcss from '@tailwindcss/vite'
-import img from './public/Без названия.jpeg'
 
 export default defineConfig({
   plugins: [
@@ -17,12 +16,12 @@ export default defineConfig({
         theme_color: "#4F46E5",
         icons: [
           {
-            src: { img },  
+            src: "./public/Без названия.jpeg",  
             sizes: "192x192",
             type: "image/jpeg",       
           },
           {
-            src: { img },
+            src: "./public/Без названия.jpeg",
             sizes: "512x512",
             type: "image/jpeg",
           },
